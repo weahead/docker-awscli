@@ -4,7 +4,7 @@ LABEL maintainer="We ahead <docker@weahead.se>"
 
 RUN adduser -h /home/aws -g '' -s /bin/false -D aws
 
-ENV AWS_CLI_VERSION=1.11.174\
+ENV AWS_CLI_VERSION=1.11.175\
 		PYTHONIOENCODING=UTF-8\
 		PAGER=cat
 
