@@ -3,7 +3,7 @@ version: '2'
 services:
   app:
     build: .
-    image: weahead/awscli:1.11.170
+    image: weahead/awscli:1.11.171
     stdin_open: true
     tty: true
     entrypoint: sh
