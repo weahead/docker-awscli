@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  app:
+    build: .
+    image: weahead/awscli:1.11.170
+    stdin_open: true
+    tty: true
+    entrypoint: sh
+    environment:
+      AWS_ACCESS_KEY_ID:
+      AWS_SECRET_ACCESS_KEY:
+      AWS_DEFAULT_REGION:
+      AWS_S3_BUCKET:
